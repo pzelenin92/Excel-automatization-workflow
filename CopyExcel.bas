@@ -21,7 +21,7 @@ Sub CopyExcel()
     Dim date_today As Date
     
     'Naming files
-    body_name = "All Eurobonds ������ 1.1"
+    body_name = "filename"
 '    body_name = "test"
     fileExtension = ".xlsm"
 '    fileExtension = ".xlsx"
@@ -32,8 +32,8 @@ Sub CopyExcel()
     new_name = body_name & " " & date_today & newExtension
     
     'Getting paths
-    path = "C:\Work\Pavel\0.Eurobonds\AllEurobondstocopy\AllEurobondstemplate\"
-    new_path = "C:\Work\Pavel\0.Eurobonds\AllEurobondstocopy\"
+    path = "C:\path"
+    new_path = "C:\new_path"
     
     'check for the existence of a master workbook
     If Dir(path & name) = "" Then
